@@ -58,7 +58,7 @@ class RangeValidator(BaseValidator):
             # Treat missing values as failures
             if pd.isna(val):
                 failed_details.append(
-                    {"row": idx, "value": val, "reason": "Null value"}
+                    {"row": idx, "value": None, "reason": "Null value"}
                 )
                 continue
             # Attempt to interpret as numeric

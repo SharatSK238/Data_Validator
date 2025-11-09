@@ -7,3 +7,35 @@ user_id,name,email,age,salary,department
 6,Diana Prince,invalid-email,29,70000.00,Marketing
 7,Eve Davis,,31,72000.00,Engineering
 8,Frank Miller,frank.miller@company.com,-5,55000.00,Sales
+9,Oscar Wilde,oscar.wilde@company.com,0,50000.00,HR
+10,Mary Poppins,mary.poppins@company.com,120,100000.00,Finance
+11,Sam O'Neil,sam.oneil@company.com,33,0,Support
+12,Ada Lovelace,ada.lovelace@company.com,36,1000000.00,R&D
+13,Linus Torvalds,linus.torvalds@company,40,150000.00,Engineering
+14,Grace Hopper,grace.hopper@company.com,85,200000.00,IT
+15,Alan Turing,alan.turing@company.com,,130000.00,Research
+16,Katherine Johnson,katherine.johnson@company.com,104,220000.00,Analytics
+17,Nikola Tesla,nikola.tesla_at_company.com,46,180000.00,Engineering
+18,Marie Curie,marie.curie@company.org,53,NaN,Science
+19,Tim Berners-Lee,tim.bl@company.com,69,300000.00,Product
+20,Elon Mask,elon.mask@company..com,52,400000.00,Strategy
+21,Satoshi Nakamoto,satoshi@company.com,47,-1000.00,Crypto
+22,Serena Williams,serena.williams@company.com,41,90000.00,Sports
+23,Usain Bolt,usain.bolt@company.com,37,87000.00,Sports
+24,LeBron James,lebron.james@company.com,39,abcd,Marketing
+25,Mo Salah,mo.salah@company.com,31,120000.00,Sales
+26,Ashoka Kumar,ashoka.kumar@company.com,27,72000.00,Operations
+27,张伟,zhang.wei@company.com,30,68000.00,Engineering
+28,Sofia García,sofia.garcia@company.com,26,71000.00,Legal
+29,Léa Dupont,lea.dupont@company.com,22,540.00,HR
+30,Jürgen Klopp,jurgen.klopp@company.com,56,155000.00,Management
+31,Ola Nordmann,ola.nordmann@company.com,44,98000.00,Support
+32,Иван Петров,ivan.petrov@company.com,38,102000.00,IT
+33,Renée Zellweger,renee.zellweger@company.com,54,111000.00,Public Relations
+34,Chloé Moretz,chloe.moretz@company.com,27,95000.50,Media
+35,José Alvarez,jose.alvarez@company.com,19,43000.00,Interns
+36,Amélie Poulain,amelie.poulain@company,20,47000.00,Customer Success
+37,John  Smith,john.smith@company.com,34,88000.00,Engineering
+38,Jane   Miller,jane.miller@company.com,31,87000.00,Engineering
+39,Empty Name,,25,60000.00,Engineering
+40,,no.name@company.com,23,62000.00,Engineering

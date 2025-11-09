@@ -58,7 +58,7 @@ class TypeValidator(BaseValidator):
             # Nulls are considered invalid for type check
             if pd.isna(val):
                 failed_details.append(
-                    {"row": idx, "value": val, "reason": "Null value"}
+                    {"row": idx, "value": None, "reason": "Null value"}
                 )
                 continue
             try:

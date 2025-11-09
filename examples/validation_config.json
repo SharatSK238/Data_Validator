@@ -5,7 +5,7 @@
       "validator": "range",
       "params": {
         "min_value": 0,
-        "max_value": 120,
+        "max_value": 100,
         "inclusive": true
       }
     },
@@ -27,7 +27,7 @@
       "column": "salary",
       "validator": "range",
       "params": {
-        "min_value": 0,
+        "min_value": 1000,
         "max_value": 1000000
       }
     }
