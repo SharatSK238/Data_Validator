@@ -99,7 +99,7 @@ def _validate_and_normalise_config(config: Dict[str, Any]) -> List[Dict[str, Any
             )
         
         # Validate parameters against validator schema
-        schema = validator_class({}).get_required_params()  # type: ignore[arg-type]
+        schema = validator_class({}).get_required_params()
         # Fill in defaults and check required params
         normalized_params: Dict[str, Any] = {}
         for param_name, meta in schema.items():
@@ -125,7 +125,6 @@ def _validate_and_normalise_config(config: Dict[str, Any]) -> List[Dict[str, Any
                             f" must be of type {expected_type}, got {type(value).__name__}"
                         )
                 else:
-                    # For Callable type checks we cannot use isinstance; skip strict check
                     import collections.abc
 
                     if expected_type == collections.abc.Callable:

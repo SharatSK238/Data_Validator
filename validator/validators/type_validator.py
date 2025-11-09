@@ -94,7 +94,6 @@ class TypeValidator(BaseValidator):
                 elif expected_type == "datetime":
                     if strict:
                         # check pandas Timestamp or datetime.datetime
-
                         if not isinstance(val, (pd.Timestamp, datetime)):
                             raise TypeError(
                                 f"Expected datetime but got {type(val).__name__}"

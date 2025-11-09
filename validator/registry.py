@@ -36,9 +36,8 @@ class ValidatorRegistry:
             class definitions.
         """
         try:
-            instance = validator_class(config={})  # type: ignore[arg-type]
+            instance = validator_class(config={})
         except Exception:
-            # If instantiation fails we cannot determine the name
             raise RuntimeError(
                 f"Failed to instantiate validator '{validator_class}' while registering."
             )
