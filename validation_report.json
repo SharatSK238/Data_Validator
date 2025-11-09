@@ -1,0 +1,69 @@
+{
+  "pipeline": {
+    "passed": false,
+    "total_validations": 4,
+    "passed_validations": 2,
+    "failed_validations": 2,
+    "results": [
+      {
+        "validator_name": "range",
+        "passed": false,
+        "total_records": 8,
+        "failed_records": 2,
+        "error_details": [
+          {
+            "row": 4,
+            "value": 150,
+            "reason": "Value above maximum 120"
+          },
+          {
+            "row": 7,
+            "value": -5,
+            "reason": "Value below minimum 0"
+          }
+        ],
+        "message": "2/8 records failed range validation",
+        "duration_seconds": 8.50000069476664e-05
+      },
+      {
+        "validator_name": "regex",
+        "passed": false,
+        "total_records": 8,
+        "failed_records": 2,
+        "error_details": [
+          {
+            "row": 5,
+            "value": "invalid-email",
+            "reason": "Does not match pattern"
+          },
+          {
+            "row": 6,
+            "value": null,
+            "reason": "Null value cannot match pattern"
+          }
+        ],
+        "message": "2/8 records failed regex validation",
+        "duration_seconds": 0.00019130000146105886
+      },
+      {
+        "validator_name": "null_check",
+        "passed": true,
+        "total_records": 8,
+        "failed_records": 0,
+        "error_details": [],
+        "message": "All 8 records passed",
+        "duration_seconds": 0.00014589997590519488
+      },
+      {
+        "validator_name": "range",
+        "passed": true,
+        "total_records": 8,
+        "failed_records": 0,
+        "error_details": [],
+        "message": "All 8 records passed",
+        "duration_seconds": 3.9700011257082224e-05
+      }
+    ],
+    "duration_seconds": 0.0005901999829802662
+  }
+}

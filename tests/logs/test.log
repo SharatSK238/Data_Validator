@@ -1,0 +1,30 @@
+INFO tests - [ValidationResult] name=range passed=True total=3 failed=0
+INFO tests - [range] failed_rows=0 / total=3
+INFO tests - No failed rows to display.
+INFO tests - [ValidationResult] name=range passed=False total=3 failed=2
+INFO tests - [range] failed_rows=2 / total=3
+INFO tests - Printing up to 100 failed row(s):
+INFO tests - Failed row 1: {'value': -1}
+INFO tests - Failed row 2: {'value': 11}
+INFO tests - [ValidationResult] name=range passed=False total=3 failed=2
+INFO tests - [range] failed_rows=2 / total=3
+INFO tests - Printing up to 100 failed row(s):
+INFO tests - Failed row 0: {'value': 0}
+INFO tests - Failed row 2: {'value': 10}
+INFO tests - [ValidationResult] name=regex passed=True total=2 failed=0
+INFO tests - [regex] failed_rows=0 / total=2
+INFO tests - No failed rows to display.
+INFO tests - [ValidationResult] name=regex passed=False total=3 failed=2
+INFO tests - [regex] failed_rows=2 / total=3
+INFO tests - Printing up to 100 failed row(s):
+INFO tests - Failed row 1: {'text': 'Xyz'}
+INFO tests - Failed row 2: {'text': ''}
+INFO tests - [ValidationResult] name=regex passed=True total=2 failed=0
+INFO tests - [regex] failed_rows=0 / total=2
+INFO tests - No failed rows to display.
+INFO tests - [PipelineResult] passed=False total=2 passed_validations=1 failed_validations=1
+INFO tests - [range] failed_rows=1 / total=4
+INFO tests - Printing up to 100 failed row(s):
+INFO tests - Failed row 3: {'num': 15, 'word': 'excellent'}
+INFO tests - [regex] failed_rows=0 / total=4
+INFO tests - No failed rows to display.

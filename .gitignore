@@ -1,0 +1,36 @@
+# --- Python bytecode & build artifacts ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.dist-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Pytest & coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Notebooks (keep only if you really want them) ---
+.ipynb_checkpoints/
+tests.ipynb
+
+# --- Editors/OS noise ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Packaging / lockfiles (optional, keep if you actually use them) ---
+Pipfile.lock
+poetry.lock

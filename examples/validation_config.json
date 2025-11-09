@@ -1,0 +1,35 @@
+{
+  "validations": [
+    {
+      "column": "age",
+      "validator": "range",
+      "params": {
+        "min_value": 0,
+        "max_value": 120,
+        "inclusive": true
+      }
+    },
+    {
+      "column": "email",
+      "validator": "regex",
+      "params": {
+        "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+      }
+    },
+    {
+      "column": "user_id",
+      "validator": "null_check",
+      "params": {
+        "allow_null": false
+      }
+    },
+    {
+      "column": "salary",
+      "validator": "range",
+      "params": {
+        "min_value": 0,
+        "max_value": 1000000
+      }
+    }
+  ]
+}

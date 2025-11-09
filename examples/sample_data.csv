@@ -1,0 +1,9 @@
+user_id,name,email,age,salary,department
+1,John Doe,john.doe@company.com,32,75000.00,Engineering
+2,Jane Smith,jane.smith@company.com,28,65000.00,Marketing
+3,Bob Johnson,bob.johnson@company.com,45,95000.00,Engineering
+4,Alice Williams,alice.williams@company.com,35,80000.00,Sales
+5,Charlie Brown,charlie.brown@company.com,150,120000.00,Management
+6,Diana Prince,invalid-email,29,70000.00,Marketing
+7,Eve Davis,,31,72000.00,Engineering
+8,Frank Miller,frank.miller@company.com,-5,55000.00,Sales
