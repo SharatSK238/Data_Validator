@@ -38,7 +38,7 @@
           }
         ],
         "message": "5/40 records failed range validation",
-        "duration_seconds": 9.349998435936868e-05
+        "duration_seconds": 0.00010829998063854873
       },
       {
         "validator_name": "regex",
@@ -78,7 +78,7 @@
           }
         ],
         "message": "6/40 records failed regex validation",
-        "duration_seconds": 0.0002142000012099743
+        "duration_seconds": 0.00021919998107478023
       },
       {
         "validator_name": "null_check",
@@ -87,7 +87,7 @@
         "failed_records": 0,
         "error_details": [],
         "message": "All 40 records passed",
-        "duration_seconds": 0.00014629997895099223
+        "duration_seconds": 0.0001655000087339431
       },
       {
         "validator_name": "range",
@@ -122,9 +122,9 @@
           }
         ],
         "message": "5/40 records failed range validation",
-        "duration_seconds": 6.33999879937619e-05
+        "duration_seconds": 6.379999103955925e-05
       }
     ],
-    "duration_seconds": 0.0006396999815478921
+    "duration_seconds": 0.0006970000104047358
   }
 }
